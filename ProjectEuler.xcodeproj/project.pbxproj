@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1B78D61C391CC0007CC863 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B78D51C391CC0007CC863 /* main.swift */; };
+		3B1B78DD1C391CCD007CC863 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B78DC1C391CCD007CC863 /* Problem8.swift */; };
+		3B1B78DF1C391DF6007CC863 /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B78DE1C391DF6007CC863 /* Problem3.swift */; };
+		3B4A43AE1D001658006C52A3 /* Problem38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43AD1D001658006C52A3 /* Problem38.swift */; };
+		3B4A43B01D002C38006C52A3 /* Problem32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43AF1D002C38006C52A3 /* Problem32.swift */; };
+		3B4A43B21D0033E1006C52A3 /* Problem34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43B11D0033E1006C52A3 /* Problem34.swift */; };
+		3B4A43B41D003800006C52A3 /* Problem50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43B31D003800006C52A3 /* Problem50.swift */; };
+		3B4A43B61D0059CC006C52A3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43B51D0059CC006C52A3 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B1B78D01C391CC0007CC863 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B1B78D21C391CC0007CC863 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1B78D51C391CC0007CC863 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3B1B78DC1C391CCD007CC863 /* Problem8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem8.swift; sourceTree = "<group>"; };
+		3B1B78DE1C391DF6007CC863 /* Problem3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem3.swift; sourceTree = "<group>"; };
+		3B4A43AD1D001658006C52A3 /* Problem38.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem38.swift; sourceTree = "<group>"; };
+		3B4A43AF1D002C38006C52A3 /* Problem32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem32.swift; sourceTree = "<group>"; };
+		3B4A43B11D0033E1006C52A3 /* Problem34.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem34.swift; sourceTree = "<group>"; };
+		3B4A43B31D003800006C52A3 /* Problem50.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem50.swift; sourceTree = "<group>"; };
+		3B4A43B51D0059CC006C52A3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1B78CF1C391CC0007CC863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1B78C91C391CC0007CC863 = {
+			isa = PBXGroup;
+			children = (
+				3B1B78D41C391CC0007CC863 /* ProjectEuler */,
+				3B1B78D31C391CC0007CC863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1B78D31C391CC0007CC863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B78D21C391CC0007CC863 /* ProjectEuler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1B78D41C391CC0007CC863 /* ProjectEuler */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B78D51C391CC0007CC863 /* main.swift */,
+				3B4A43B51D0059CC006C52A3 /* Extensions.swift */,
+				3B1B78DE1C391DF6007CC863 /* Problem3.swift */,
+				3B1B78DC1C391CCD007CC863 /* Problem8.swift */,
+				3B4A43AF1D002C38006C52A3 /* Problem32.swift */,
+				3B4A43B11D0033E1006C52A3 /* Problem34.swift */,
+				3B4A43AD1D001658006C52A3 /* Problem38.swift */,
+				3B4A43B31D003800006C52A3 /* Problem50.swift */,
+			);
+			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1B78D11C391CC0007CC863 /* ProjectEuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1B78D91C391CC0007CC863 /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildPhases = (
+				3B1B78CE1C391CC0007CC863 /* Sources */,
+				3B1B78CF1C391CC0007CC863 /* Frameworks */,
+				3B1B78D01C391CC0007CC863 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler;
+			productName = ProjectEuler;
+			productReference = 3B1B78D21C391CC0007CC863 /* ProjectEuler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1B78CA1C391CC0007CC863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Cappricorn;
+				TargetAttributes = {
+					3B1B78D11C391CC0007CC863 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3B1B78CD1C391CC0007CC863 /* Build configuration list for PBXProject "ProjectEuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B1B78C91C391CC0007CC863;
+			productRefGroup = 3B1B78D31C391CC0007CC863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1B78D11C391CC0007CC863 /* ProjectEuler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1B78CE1C391CC0007CC863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1B78DF1C391DF6007CC863 /* Problem3.swift in Sources */,
+				3B1B78DD1C391CCD007CC863 /* Problem8.swift in Sources */,
+				3B4A43B41D003800006C52A3 /* Problem50.swift in Sources */,
+				3B4A43AE1D001658006C52A3 /* Problem38.swift in Sources */,
+				3B4A43B61D0059CC006C52A3 /* Extensions.swift in Sources */,
+				3B1B78D61C391CC0007CC863 /* main.swift in Sources */,
+				3B4A43B21D0033E1006C52A3 /* Problem34.swift in Sources */,
+				3B4A43B01D002C38006C52A3 /* Problem32.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B1B78D71C391CC0007CC863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B1B78D81C391CC0007CC863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B1B78DA1C391CC0007CC863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B1B78DB1C391CC0007CC863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1B78CD1C391CC0007CC863 /* Build configuration list for PBXProject "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1B78D71C391CC0007CC863 /* Debug */,
+				3B1B78D81C391CC0007CC863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1B78D91C391CC0007CC863 /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1B78DA1C391CC0007CC863 /* Debug */,
+				3B1B78DB1C391CC0007CC863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1B78CA1C391CC0007CC863 /* Project object */;
+}
