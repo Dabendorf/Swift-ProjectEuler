@@ -59,6 +59,8 @@ extension Int {
             return false
         } else if self==2 {
             return true
+        } else if self%2==0 {
+            return false
         } else {
             var primeBool = true
             var n = 3
@@ -70,6 +72,25 @@ extension Int {
                 n += 2
             } while n <= Int(sqrt(Double(self))) + 1
             return primeBool
+        }
+    }
+    
+    func isPermutation(other: Int) -> Bool {
+        let str1 = String(self)
+        let str2 = String(other)
+        var str2Arr = str2.characters.map({$0})
+        if str1.characters.count == str2.characters.count {
+            for char in str1.characters {
+                if str2Arr.contains(char) {
+                    let ind = str2Arr.indexOf(char)
+                    str2Arr.removeAtIndex(ind!)
+                } else {
+                    return false
+                }
+            }
+            return true
+        } else {
+            return false
         }
     }
 }

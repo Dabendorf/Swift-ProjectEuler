@@ -16,6 +16,7 @@
 		3B4A43B41D003800006C52A3 /* Problem50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43B31D003800006C52A3 /* Problem50.swift */; };
 		3B4A43B61D0059CC006C52A3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43B51D0059CC006C52A3 /* Extensions.swift */; };
 		3B4A43B81D0077FE006C52A3 /* Problem26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A43B71D0077FE006C52A3 /* Problem26.swift */; };
+		3B8921931D01A04800926CFC /* Problem49.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8921921D01A04800926CFC /* Problem49.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		3B4A43B31D003800006C52A3 /* Problem50.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem50.swift; sourceTree = "<group>"; };
 		3B4A43B51D0059CC006C52A3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3B4A43B71D0077FE006C52A3 /* Problem26.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem26.swift; sourceTree = "<group>"; };
+		3B8921921D01A04800926CFC /* Problem49.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem49.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				3B4A43AF1D002C38006C52A3 /* Problem32.swift */,
 				3B4A43B11D0033E1006C52A3 /* Problem34.swift */,
 				3B4A43AD1D001658006C52A3 /* Problem38.swift */,
+				3B8921921D01A04800926CFC /* Problem49.swift */,
 				3B4A43B31D003800006C52A3 /* Problem50.swift */,
 			);
 			path = ProjectEuler;
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8921931D01A04800926CFC /* Problem49.swift in Sources */,
 				3B1B78DF1C391DF6007CC863 /* Problem3.swift in Sources */,
 				3B1B78DD1C391CCD007CC863 /* Problem8.swift in Sources */,
 				3B4A43B41D003800006C52A3 /* Problem50.swift in Sources */,
