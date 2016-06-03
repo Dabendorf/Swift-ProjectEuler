@@ -13,6 +13,7 @@ print("Hello Project Euler!")
 //let _ = Problem3() //6857
 //let _ = Problem8() //23514624000
 //let _ = Problem26() //983
+let _ = Problem28() //
 //let _ = Problem32() //45228
 //let _ = Problem34() //40730
 //let _ = Problem38() //932718654
