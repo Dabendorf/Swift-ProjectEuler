@@ -56,8 +56,7 @@ class Problem53 {
                     }
                 }
                 
-                //var product = 1
-                var product = BigInt(intNr: 1)
+                var product = 1
                 for i in numerator {
                     product *= i
                 }
@@ -65,16 +64,18 @@ class Problem53 {
                     product /= i
                 }
                 
-                print("\(n) über \(k)")
+                if product > 1000000 {
+                    counter += 1
+                }
                 
                 /*if str2Arr.contains(char) {
-                    let ind = str2Arr.indexOf(char)
-                    str2Arr.removeAtIndex(ind!)
-                }*/
+                 let ind = str2Arr.indexOf(char)
+                 str2Arr.removeAtIndex(ind!)
+                 }*/
                 /*if permutations(n, k) > 1000000 {
-                //if (n.factorial / (r.factorial * (n-r).factorial)) > 1000000 {
-                    counter += 1
-                }*/
+                 //if (n.factorial / (r.factorial * (n-r).factorial)) > 1000000 {
+                 counter += 1
+                 }*/
             }
         }
         
@@ -82,11 +83,11 @@ class Problem53 {
     }
     
     /*func permutations(n: Int, _ k: Int) -> Int {
-        var result = 1
-        for i in 0..<k {
-            result *= (n - i)
-            result /= (i + 1)
-        }
-        return result
-    }*/
+     var result = 1
+     for i in 0..<k {
+     result *= (n - i)
+     result /= (i + 1)
+     }
+     return result
+     }*/
 }

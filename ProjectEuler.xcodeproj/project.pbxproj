@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B188F741D0338570089B495 /* Problem52.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B188F731D0338570089B495 /* Problem52.swift */; };
+		3B188F761D0338600089B495 /* Problem53.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B188F751D0338600089B495 /* Problem53.swift */; };
 		3B1B78D61C391CC0007CC863 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B78D51C391CC0007CC863 /* main.swift */; };
 		3B1B78DD1C391CCD007CC863 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B78DC1C391CCD007CC863 /* Problem8.swift */; };
 		3B1B78DF1C391DF6007CC863 /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B78DE1C391DF6007CC863 /* Problem3.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B188F731D0338570089B495 /* Problem52.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem52.swift; sourceTree = "<group>"; };
+		3B188F751D0338600089B495 /* Problem53.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem53.swift; sourceTree = "<group>"; };
 		3B1B78D21C391CC0007CC863 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1B78D51C391CC0007CC863 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3B1B78DC1C391CCD007CC863 /* Problem8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem8.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				3B4A43AD1D001658006C52A3 /* Problem38.swift */,
 				3B8921921D01A04800926CFC /* Problem49.swift */,
 				3B4A43B31D003800006C52A3 /* Problem50.swift */,
+				3B188F731D0338570089B495 /* Problem52.swift */,
+				3B188F751D0338600089B495 /* Problem53.swift */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 				3B1B78D61C391CC0007CC863 /* main.swift in Sources */,
 				3B4A43B21D0033E1006C52A3 /* Problem34.swift in Sources */,
 				3B4A43B01D002C38006C52A3 /* Problem32.swift in Sources */,
+				3B188F741D0338570089B495 /* Problem52.swift in Sources */,
 				3B4A43B81D0077FE006C52A3 /* Problem26.swift in Sources */,
+				3B188F761D0338600089B495 /* Problem53.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

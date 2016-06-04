@@ -24,8 +24,8 @@ class Problem52 {
         var counter = 1
         while !solved {
             if counter.isPermutation(2*counter) && counter.isPermutation(3*counter) &&
-               counter.isPermutation(4*counter) && counter.isPermutation(5*counter) &&
-               counter.isPermutation(6*counter) {
+                counter.isPermutation(4*counter) && counter.isPermutation(5*counter) &&
+                counter.isPermutation(6*counter) {
                 solved = true
                 return counter
             }
