@@ -68,14 +68,7 @@ class Problem53 {
                     counter += 1
                 }
                 
-                /*if str2Arr.contains(char) {
-                 let ind = str2Arr.indexOf(char)
-                 str2Arr.removeAtIndex(ind!)
-                 }*/
-                /*if permutations(n, k) > 1000000 {
-                 //if (n.factorial / (r.factorial * (n-r).factorial)) > 1000000 {
-                 counter += 1
-                 }*/
+                //not working, because of big Integers, see Java project for solution
             }
         }
         
